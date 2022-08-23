@@ -115,7 +115,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-content: space-around;
 }
 
 #content {
@@ -129,21 +128,22 @@ body {
   line-height: 1.5em;
   border-radius: 10px;
   padding: 0px 30px;
-  width: 300px;
-  height: 300px;
+  width: 360px;
+  height: 360px;
   display: flex;
-  justify-content: center;
+  flex-flow: column nowrap;
+  justify-content: space-around;
   align-items: center;
 }
 
 #emojis {
     background: #ff3333;
-    height: 100%;
     font-size: 1.25em;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* I want a way to put this div underneath the content div */    
+    width: 420px;
+    margin-bottom: 15px;
 }
 
 
